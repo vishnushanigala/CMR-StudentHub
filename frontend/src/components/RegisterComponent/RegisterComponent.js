@@ -58,7 +58,7 @@ function RegisterComponent() {
         gender,
       };
 
-      const response = await axios.post("http://localhost:4000/signup", user);
+      const response = await axios.post("https://cmr-studenthub.onrender.com/signup", user);
       if (response.status === 200) {
         navigate("/login");
       } else {

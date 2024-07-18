@@ -2,12 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomeScreen from "./screens/HomeScreen";
 import LoginScreen from "./screens/LoginScreen";
 import RegisterScreen from "./screens/RegisterScreen";
-// import LoginComponent from './Components/LoginComponent';
-// import RegisterComponent from './Components/RegisterComponent';
-// import ContactComponent from './Components/ContactComponent';
-// import DashComponent from './Components/DashComponent';
-// import OrderComponent from './Components/OrderComponent';
-// import AdminOrderComponent from './Components/AdminOrderComponent';
+
 import PrivateRoute from "./routes/PrivateRoute";
 import AdminPrivateRoute from "./routes/AdminPrivateRoute";
 import ContactScreen from "./screens/ContactScreen";

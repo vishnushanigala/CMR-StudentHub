@@ -10,7 +10,7 @@ function LoginComponent() {
     const handleLogin = async () => {
         console.log("start")
         try{
-          const response = await axios.post("http://localhost:4000/login", {
+          const response = await axios.post("https://cmr-studenthub.onrender.com/login", {
           email: document.getElementById("email").value,
           password: document.getElementById("password").value,
         });
