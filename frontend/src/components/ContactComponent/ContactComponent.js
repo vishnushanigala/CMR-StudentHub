@@ -11,7 +11,7 @@ function ContactComponent() {
             <img src={require('./support.png')} />
           </div>
           <div>
-            <span>Fell free to ask us!</span>
+            <span>Feel free to ask us!</span>
             <br />
             <input type="text" placeholder="Name" id="name" />
             <br />
